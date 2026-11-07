@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { asset } from '../asset'
 
 export type LinkCard = {
   title: string
@@ -37,7 +38,7 @@ export default function LinkCards({ title, cards }: Props) {
                       <Link to={card.to} className="cell-content">
                         <span>{card.title}</span>
                         <img
-                          src="/icons/arrow-down-small.svg"
+                          src={asset('icons/arrow-down-small.svg')}
                           alt=""
                           width={14}
                           height={13}

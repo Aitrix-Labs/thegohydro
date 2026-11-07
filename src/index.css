@@ -211,7 +211,7 @@ p {
   width: 14px;
   height: 15px;
   flex-shrink: 0;
-  background: url('/icons/arrow-right.svg') center / contain no-repeat;
+  background: url('/gohydro/icons/arrow-right.svg') center / contain no-repeat;
 }
 
 .button.button--arrow-right:hover,
@@ -514,14 +514,14 @@ body.menu-open {
   content: '';
   width: 20px;
   height: 20px;
-  background: url('/icons/search.svg') center / contain no-repeat;
+  background: url('/gohydro/icons/search.svg') center / contain no-repeat;
 }
 
 .button--info-modal::after {
   content: '';
   width: 24px;
   height: 24px;
-  background: url('/icons/info.svg') center / contain no-repeat;
+  background: url('/gohydro/icons/info.svg') center / contain no-repeat;
 }
 
 .button--info-modal::before {

@@ -5,7 +5,7 @@ import HomePage from './pages/HomePage'
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/gohydro">
       <Routes>
         <Route element={<Layout />}>
           <Route index element={<HomePage />} />

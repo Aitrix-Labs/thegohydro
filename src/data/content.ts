@@ -1,3 +1,4 @@
+import { asset } from '../asset'
 export type NavChild = { label: string; to: string }
 
 export type NavItem = {
@@ -107,7 +108,7 @@ export const heroSlides = [
     media: {
       type: 'video' as const,
       src: 'https://www.hydro.com.au/sites/default/files/2026-01/Rec%20Header%20Video.mp4',
-      poster: '/images/hero1.jpg.webp',
+      poster: asset('images/hero1.jpg.webp'),
     },
   },
   {
@@ -120,7 +121,7 @@ export const heroSlides = [
     media: {
       type: 'video' as const,
       src: 'https://www.hydro.com.au/sites/default/files/2026-01/Rec%20Header%20Video.mp4',
-      poster: '/images/hero2.jpg.webp',
+      poster: asset('images/hero2.jpg.webp'),
     },
   },
   {
@@ -133,37 +134,37 @@ export const heroSlides = [
     media: {
       type: 'video' as const,
       src: 'https://www.hydro.com.au/sites/default/files/2025-11/Tarraleah%20Overview.mp4',
-      poster: '/images/hero3.jpg.webp',
+      poster: asset('images/hero3.jpg.webp'),
     },
   },
 ]
 
 export const about = {
-  icon: '/images/leaf.png',
+  icon: asset('images/leaf.png'),
   titleLine: 'Creating renewable energy',
   titleAccent: 'for generations',
   body: "GoHydro has been creating renewable energy for over a century, and it's what we'll continue doing for generations to come. We are a leading generator of renewable energy and clean energy innovation, with 30 hydropower stations and 54 major dams, as well as wind farms and world-leading hybrid renewable energy systems.",
   cta: { label: 'Learn more about us', to: '/about' },
-  image: '/images/about.jpg.webp',
+  image: asset('images/about.jpg.webp'),
   imagePosition: 'right' as const,
 }
 
 export const activities = {
-  icon: '/images/vector.png',
+  icon: asset('images/vector.png'),
   titleLine: 'Activities around',
   titleAccent: 'Tasmania',
   body: "We manage recreation sites across Tasmania. Whether you're planning to get out on the water, visit a historic site or have a great weekend away, find out everything you need to know for your next adventure.",
   cta: { label: 'Discover your next adventure', to: '/things-to-do' },
-  image: '/images/activities.jpg.webp',
+  image: asset('images/activities.jpg.webp'),
 }
 
 export const energyFuture = {
-  icon: '/images/bulb.png',
+  icon: asset('images/bulb.png'),
   titleLine: 'A new era of',
   titleAccent: 'Tasmanian hydropower',
   body: 'We are making sure our energy system is fit for the next century, with plans to transform our hydro system to increase capacity, efficiency and flexibility. This includes work on our existing assets, proposals to build new ones and supporting wind and solar developments.',
   cta: { label: 'Explore our energy future', to: '/our-energy-future' },
-  image: '/images/energy.jpg.webp',
+  image: asset('images/energy.jpg.webp'),
   imagePosition: 'left' as const,
 }
 
@@ -177,7 +178,7 @@ export const waterStorage = {
   percentLabel: '% of full storage capacity',
   asAt: 'As at 02/11/2026',
   note: 'Updated on the first working day of the week.',
-  image: '/images/water.jpg.webp',
+  image: asset('images/water.jpg.webp'),
 }
 
 export const stories = [
@@ -185,37 +186,37 @@ export const stories = [
     title: 'Beneath the surface: restoring a vital part of Poatina Power Station',
     category: 'Energy & industry',
     date: '15 Sep',
-    image: '/images/story1.jpg.webp',
+    image: asset('images/story1.jpg.webp'),
   },
   {
     title: 'Giant valve completes an extraordinary journey to Gordon',
     category: 'Energy & industry',
     date: '02 Sep',
-    image: '/images/story2.jpg.webp',
+    image: asset('images/story2.jpg.webp'),
   },
   {
     title: 'Taking special care at Lake St Clair: replacing the radial gates',
     category: 'Energy & industry',
     date: '10 Aug',
-    image: '/images/story3.jpg.webp',
+    image: asset('images/story3.jpg.webp'),
   },
   {
     title: 'Edgar Dam strengthened for the future following major upgrade',
     category: 'Energy & industry',
     date: '06 Aug',
-    image: '/images/story4.jpg.webp',
+    image: asset('images/story4.jpg.webp'),
   },
   {
     title: "Resetting Poatina's Turbine 2 for the next generation",
     category: 'Energy & industry',
     date: '11 May',
-    image: '/images/story5.jpg.webp',
+    image: asset('images/story5.jpg.webp'),
   },
   {
     title: 'Ahoy! New wind turbine blades sail into King Island',
     category: 'Energy & industry',
     date: '17 Feb',
-    image: '/images/story6.jpg.webp',
+    image: asset('images/story6.jpg.webp'),
   },
 ]
 
@@ -223,7 +224,7 @@ export const careers = {
   title: 'Build your career in renewable energy',
   body: "When you work with GoHydro, you'll join a dynamic and inclusive community where you can feel connected, inspired and supported to grow and excel. Use your energy to create a better future.",
   cta: { label: 'See our vacancies', to: '/careers' },
-  image: '/images/careers.jpg.webp',
+  image: asset('images/careers.jpg.webp'),
 }
 
 export const pageCopy: Record<

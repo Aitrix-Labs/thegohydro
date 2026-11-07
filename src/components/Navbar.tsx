@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
+import { asset } from '../asset'
 import { NavLink } from 'react-router-dom'
 import { moreMenuItem, moreNav, primaryNav, type NavItem } from '../data/content'
 import Logo from './Logo'
@@ -345,7 +346,7 @@ export default function Navbar() {
         />
         <div className="side-modal__content">
           <div className="side-modal__header">
-            <img src="/icons/search.svg" alt="" width={22} height={22} />
+            <img src={asset('icons/search.svg')} alt="" width={22} height={22} />
             <h2>Search</h2>
           </div>
           <form
@@ -390,7 +391,7 @@ export default function Navbar() {
         />
         <div className="side-modal__content">
           <div className="side-modal__header">
-            <img src="/icons/info.svg" alt="" width={24} height={24} />
+            <img src={asset('icons/info.svg')} alt="" width={24} height={24} />
             <h2>Alerts</h2>
           </div>
           <ul className="side-modal__list side-modal__list--alerts">
